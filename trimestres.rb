@@ -14,10 +14,10 @@ ventas = {
 }
 
 quarters = {}
-acum = 1
+acumulador = 1
 ventas.each do |x,v|
-    quarters["Q#{acum}"] = "#{v}"
-    acum += 1
+    quarters["Q#{acumulador}"] = "#{v}"
+    acumulador += 1
 end
 
 puts quarters
