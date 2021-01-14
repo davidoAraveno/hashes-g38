@@ -14,5 +14,6 @@ ventas = {
 }
 
 ventas.each do |x,a|
-    print "#{x}\s- " if a > 45000
+    print "#{x}   " if a > 45000
 end
+puts
