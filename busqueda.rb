@@ -16,10 +16,9 @@ ventas = {
 for i in ARGV
     ventas.each do |x,v|
         if i.to_i == v
-            puts "uno: #{x}"
+            puts "#{x}(#{v})"
         else
             puts "no encontrado"
-            
         end
     end
 end
